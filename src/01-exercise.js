@@ -14,17 +14,6 @@ import $ from "jquery";
  */
 function exercise01() {
   // Complete the code of the function
-  let list = fetch('https://jsonplaceholder.typicode.com/posts?_limit=20');
-  $("data").text("list");
-}
-
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.querySelector("#data").textContent = xhttp.responseText;
-    }
-};
-xhttp.open("GET", "filename", true);
-xhttp.send();
+  
 
 export default exercise01;
